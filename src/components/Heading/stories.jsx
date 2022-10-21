@@ -16,12 +16,12 @@ export default {
   },
 };
 
-export function Light(args) {
+export const Light = (args) => {
   return <Heading {...args} />;
-}
-export function Dark(args) {
+};
+export const Dark = (args) => {
   return <Heading {...args} />;
-}
+};
 
 Light.parameters = {
   backgrounds: {
