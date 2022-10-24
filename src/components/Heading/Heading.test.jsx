@@ -90,4 +90,29 @@ describe('<Heading />', () => {
 
     expect(h6.tagName.toLocaleLowerCase()).toBe('h6');
   });
+
+  it('should render with default values', () => {
+    renderTheme(<Heading>texto</Heading>);
+    const heading = screen.getByRole('heading', { name: 'texto' });
+
+    expect(heading).toMatchInlineSnapshot(`
+      .c0 {
+        color: #0A1128;
+        font-size: 6.4rem;
+        text-transform: none;
+      }
+
+      @media (max-width:768px) {
+        .c0 {
+          font-size: 4.0rem;
+        }
+      }
+
+      <h1
+        class="c0"
+      >
+        texto
+      </h1>
+    `);
+  });
 });

@@ -23,6 +23,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'react/require-default-props': 'off',
     'react/function-component-definition': [
       'error',
       {

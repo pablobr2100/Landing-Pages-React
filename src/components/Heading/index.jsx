@@ -22,10 +22,3 @@ Heading.propTypes = {
   size: P.oneOf(['small', 'medium', 'big', 'huge']),
   uppercase: P.bool,
 };
-
-Heading.defaultProps = {
-  colorDark: true,
-  as: 'h1',
-  size: 'huge',
-  uppercase: false,
-};
