@@ -76,11 +76,11 @@ exports[`<GridImage /> should render grid text section 1`] = `
         >
           My grid
         </h2>
-        <p
+        <div
           class="c4 c5"
         >
           Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <div
           class="c6"
         >
@@ -221,11 +221,11 @@ exports[`<GridImage /> should render grid text section without background 1`] = 
         >
           My grid
         </h2>
-        <p
+        <div
           class="c4 c5"
         >
           Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
-        </p>
+        </div>
         <div
           class="c6"
         >
