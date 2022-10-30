@@ -24,6 +24,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'react/jsx-props-no-spreading': 'off',
     'react/require-default-props': 'off',
+    'no-underscore-dangle': 'off',
     'react/function-component-definition': [
       'error',
       {
