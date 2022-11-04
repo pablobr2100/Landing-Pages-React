@@ -25,6 +25,9 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react/require-default-props': 'off',
     'no-underscore-dangle': 'off',
+    'no-promise-executor-return': 'off',
+    'no-unused-vars': 'off',
+    'no-shadow': 'off',
     'react/function-component-definition': [
       'error',
       {

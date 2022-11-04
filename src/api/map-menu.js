@@ -16,15 +16,15 @@ export const mapMenuLinks = (links = []) => {
 
 export const mapMenu = (menu = {}) => {
   const {
-    open_in_new_tab: newTab = false,
     logo_text: text = '',
     logo_link: link = '',
-    logo: { url: srcImg = '' } = '',
-    menu: links = [],
+    menu_links: links = [],
   } = menu;
 
+  const srcImg =
+    menu.logo && menu.logo.data ? menu.logo.data.attributes.url : '';
+
   return {
-    newTab,
     text,
     link,
     srcImg,

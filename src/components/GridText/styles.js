@@ -21,7 +21,7 @@ export const Grid = styled.div`
     width: 100%;
 
     @media ${theme.media.lteMedium} {
-      grid-template-columns: 1;
+      grid-template-columns: 1fr;
     }
   `}
 `;

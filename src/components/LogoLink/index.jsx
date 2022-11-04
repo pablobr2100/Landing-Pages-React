@@ -4,6 +4,7 @@ import { Container } from './styles';
 import { Heading } from '../Heading';
 
 export const LogoLink = ({ text, srcImg = '', link }) => {
+  console.log(srcImg, text);
   return (
     <Heading size="small" uppercase>
       <Container href={link}>
